@@ -23,7 +23,7 @@ Note: You can also download the [lattest version of the GNU MathProg Osemosys co
 
 	At Windows:
 		
-	- First download GLPK lattest version at 
+	- First download GLPK lattest version at [https://sourceforge.net/projects/winglpk](https://sourceforge.net/projects/winglpk/)
 	- Unzip the downloded folder and copy the glpk-4.**XX** folder to a directory (recommended: "C:\" )
 	- Tell windows where to find GLPK, by adding the path the system path variables. 
 	Be aware to use the version corresponding to your system type, i.e. "C:\glpk-4.**XX**\w32" for 32-Bit system or "C:\glpk-4.**XX**\w64" for 64-Bit system. 
@@ -45,8 +45,8 @@ Note: You can also download the [lattest version of the GNU MathProg Osemosys co
 2. Select the option "r" -Run
 3. Write the model and scenario name:
 	
-		Model name: ***OCGModel***
-		Model name: ***base***
+		Model name: OCGModel
+		Model name: base
 
 ## 3. Plot Results
 
@@ -62,16 +62,13 @@ Note: You can also find the CSV. files with the simulation results at ***.\run\O
 ## Need help? 
 
 ### Original Paper
-	
-	You can find a complete description of the model structure,  assumptions and validation results at the [Original Paper](https://www.google.de)
+You can find a complete description of the model structure,  assumptions and validation results at the [Original Paper](https://www.google.de)
 	
 ### OCGModel and int4osemosys documentation
-	
-	You can read our complete documentation [here] (https://www.google.de)
+You can read our complete documentation [here](https://www.google.de)
 	
 ### OSeMOSYS documentation
-	
-	You can read the OSeMOSYS original documentation [here] (https://osemosys.readthedocs.io/en/latest/?badge=latest)
+You can read the OSeMOSYS original documentation [here](https://osemosys.readthedocs.io/en/latest/?badge=latest)
 
 ## Citing OCGModel
 
@@ -80,8 +77,8 @@ If you use the OCGModel in your research, please cite the original paper:
 	todo: addd paper name and citations 
 
 For Bibtex you can use the following:
-
-    @article{TODO: Add bibtex cite}
+	
+	@article{TODO: Add bibtex cite}
 
 
 
