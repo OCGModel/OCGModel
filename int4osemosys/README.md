@@ -54,7 +54,7 @@ You can use the same interface to plot the model resuls. For that:
 
 1. Select the option "p" -  Plot results at the main menu. 
 2. Select the desired plot from the list
-3. Give the additional information for the type of plot selected. e.g. Fuel, year, ..etc. **The paramerets must be given exactlly how declared in the Techmap file (.\data)!! CASE SENSITIVE!**
+3. Give the additional information for the type of plot selected. e.g. Fuel, year, ..etc. **The paramerets must be given exactly how declared in the Techmap file (.\data)!! CASE SENSITIVE!**
 4. The plot will be displayed at your brower
 
 Note: You can also find the CSV files with the simulation results at ***.\run\OCGModel_base"***
