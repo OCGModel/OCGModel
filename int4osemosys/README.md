@@ -1,16 +1,16 @@
 # OCGModel Osemosys implementation
 
-Thank you for your interest on the OCGModel.
+Thank you for your interest on the OCGModel!
 
-This folder contains the comple source-code of the developed interface for OSeMOSYS and the model implementation using this interface.
+This folder contains the complete source-code of the developed interface for [OSeMOSYS](http://www.osemosys.org) and the model implementation using this interface.
 
-This is organized as follows:
-  - data: Folder with the models Technolgy maps (excel) and timeseries data
-  - core: Where the interface source-code is located
-  - scripts: Scripts for pre-processing data
+It is organized as follows:
+  - data: models Technolgy map (excel) and timeseries data
+  - core: interface source-code is located
+  - scripts: scripts for pre-processing data
   - OSeMOSYS: Folder with the adapated version of the OSeMOSYS code. All changes to the original code, are marked on the file. 
   
-Note: You can also download the [lattest version of the GNU MathProg Osemosys code](http://www.osemosys.org/get-started.html) and add to this folder to run with different Osemosys code versions. 
+Note: You can also download the [lattest version of the GNU MathProg Osemosys code](http://www.osemosys.org/get-started.html) and add to the OSeMOSYS folder to run with the different code versions. 
   
 
 ## 1. Installation
@@ -34,11 +34,11 @@ Note: You can also download the [lattest version of the GNU MathProg Osemosys co
 		
 2. Install Python
 	
-	- If you do not have Python installed in your machine, you can download it [here](https://www.python.org/downloads/)
+	- If you do not have Python installed in your computer, you can download it [here](https://www.python.org/downloads/)
 
 ## 2. Run the model
 
-1. **Run the startOsemosysInt.py script in this folder.** This can be done by following command:
+1. **Run the startOsemosysInt.py script in this folder.** This can be done using the prefered IDE or by the following command:
 
 		$ python startOsemosysInt.py 
 
@@ -57,7 +57,7 @@ You can use the same interface to plot the model resuls. For that:
 3. Give the additional information for the type of plot selected. e.g. Fuel, year, ..etc. **The paramerets must be given exactlly how declared in the Techmap file (.\data)!! CASE SENSITIVE!**
 4. The plot will be displayed at your brower
 
-Note: You can also find the CSV. files with the simulation results at ***.\run\OCGModel_base"***
+Note: You can also find the CSV files with the simulation results at ***.\run\OCGModel_base"***
 
 ## Need help? 
 
