@@ -55,7 +55,7 @@ def rescale_re_flh(ts_filename, flh, save=False):
         flh (float): The full load hours the availability time series must be rescaled to.
         save (bool, optional): Indicator if the new availbility timeseries should be save. Defaults to False.
                                If True, the new time series is saved at the save path of the **ts_filename** with
-                               "_**flh**FLH" added to the name.
+                               "_**flh** FLH" added to the name.
 
     Returns:
         list: List with len 8760 with the rescaled availability factors.

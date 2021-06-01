@@ -34,7 +34,7 @@ def time_slices_selection(tssname, timeseries_dir, ts_names, n_clusters=12, n_fa
         Set path and give timeseries names to be used
 
         >>> # Set use the timeseries dir inside the data dir
-        >>> timeseries_folder = os.sep.join(["..", "data", "timeseries"])
+        >>> timeseries_dir = os.sep.join(["..", "data", "timeseries"])
         >>> # Select timeseries to be considered for clustering (must be on the aforementioned folder)
         >>> ts_names = ["corrected_eletricity_demand_2016.txt",
         >>>             "heat_household_demand_2016.txt",
@@ -48,7 +48,7 @@ def time_slices_selection(tssname, timeseries_dir, ts_names, n_clusters=12, n_fa
 
         Run k-means
 
-        >>> tss.time_slices_selection("tssname", timeseries_folder, ts_names)
+        >>> tss.time_slices_selection("tssname", timeseries_dir, ts_names)
 
     Args:
         tssname (str): Name for the timeslice selection
