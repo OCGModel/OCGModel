@@ -51,7 +51,7 @@ Note: You can also download the [lattest version of the GNU MathProg Osemosys co
 
 ## 2. Run the model
 
-1. **Strat Interface** 
+1. **Start Interface** 
  	- On Windows, you can simply run the ***start_int4osemosys.bat*** file.
  	- Or ***Run the startOsemosysInt.py script in this folder.*** This can be done using the prefered IDE or by the following command:
 

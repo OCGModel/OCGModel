@@ -57,6 +57,8 @@ Settings Module
 Scripts
 +++++++
 
+.. _tss:
+
 Time slices selection
 ---------------------
 
