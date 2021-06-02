@@ -184,14 +184,15 @@ These are:
 
    Defaults to our adapted version (osemosys_short_OCG.txt) at the OSeMOSYS directory. All adpations to the original version are docummented in the file.  
 
-   You can download the other versions of `OSeMOSYS <http://www.osemosys.org/get-started.html>`_, add to the the OSeMOSYS directory and change this setting to build the model instance with them. 
+   You can `download the other versions of OSeMOSYS <http://www.osemosys.org/get-started.html>`_, add to the the OSeMOSYS directory and change this setting to build the model instance with them. 
 
 - *solver*:   
    Solver to be used. The interface offers support for the open-sorce GLPK and also CPLEX.
 
    If you have access to CPLEX and wish to use it, don't forget to install the cplex python API before changing this configuration.  
 
-- *compute missing variables*: This parameter tell then if the not computed variables should be calcuated.
+- *compute missing variables*: 
+   This parameter tell then if the not computed variables should be calcuated.
 
    The OSeMOSYS short code version does not compute intermediate variables, e.g ProductionByTechnology, UseBytechnology. 
       
