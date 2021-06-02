@@ -22,6 +22,7 @@ Attributes:
 
 import configparser  # Read config file
 import warnings
+import os
 
 # try to import cplex
 try:
@@ -74,7 +75,7 @@ class Settings:
         self.settings_file = settings_file
 
         # Settings filename
-        self.filename = settings_file.split(r"/")[-1]
+        self.filename = settings_file.split(os.sep)[-1]
 
         # Start setting names
         self.comments = dict()

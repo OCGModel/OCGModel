@@ -13,7 +13,7 @@ import os
 
 print("...reading Settings from settings.ini \n")
 print("####Interface for Osemosys####")
-sett = Settings(SETTINGS_FILENAME)
+sett = Settings(r"core\%s" %SETTINGS_FILENAME)
 opt = ""
 while opt != "q":
     opt = input("\nSelect option:\n\n "

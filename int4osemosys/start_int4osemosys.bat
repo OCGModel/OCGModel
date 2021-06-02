@@ -1,0 +1,2 @@
+python startOsemosysInt.py
+pause
