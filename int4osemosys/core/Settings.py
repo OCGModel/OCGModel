@@ -22,6 +22,7 @@ Attributes:
 
 import configparser  # Read config file
 import warnings
+
 # try to import cplex
 try:
     import cplex as cplex
@@ -50,6 +51,7 @@ LD = "DAYTYPE"
 LH = "DAILYTIMEBRACKET"
 S = "STORAGE"
 
+
 # Settings Class
 class SettingsException(Exception):
     # Class for throwing Exceptions
@@ -65,6 +67,7 @@ class Settings:
         settings_file (str): .ini file path
 
     """
+
     def __init__(self, settings_file):
 
         # Path to settings
@@ -116,8 +119,9 @@ class Settings:
                     if opt in self.__dict__.keys():
                         self._parser.set(s, opt, getattr(self, opt))
 
-        with open (self.settings_file, "w") as configfile:
+        with open(self.settings_file, "w") as configfile:
             self._parser.write(configfile)
+
 
 # Initialize settings
 settings = Settings(SETTINGS_FILENAME)
