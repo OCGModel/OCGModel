@@ -94,7 +94,7 @@ You can use the same interface to plot the model resuls. For that:
 
 	Note: You can also find the CSV files with the simulation results at ***.\run\OCGModel_base"***
 
-## 4. Edit or create new Model instance
+## 4. Edit or create new model instance
 
 All model instance parameters are located at the Technology Map at the folder ***data***. To edit the model, simply open the file with the model name and edit it there.
 You can change existing parameters, create new scenarios, add fuels and technologies to the model. After editing simply save and close the file. 
