@@ -55,7 +55,7 @@ Note: You can also download the [lattest version of the GNU MathProg Osemosys co
  	- On Windows, you can simply run the ***start_int4osemosys.bat*** file.
  	- Or ***Run the startOsemosysInt.py script in this folder.*** This can be done using the prefered IDE or by the following command:
 
-		$ python startOsemosysInt.py 
+			$ python startOsemosysInt.py 
 
 2. Select the option "r" -Run
 3. Write the model and scenario name and press enter
