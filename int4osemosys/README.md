@@ -89,7 +89,7 @@ You can use the same interface to plot the model resuls. For that:
 
 	<p align="center">
  	<img src = "..\docs\source\images\example_plot.png" width = 500 >
-	<\p>
+	</p>
 
 	Note: You can also find the CSV files with the simulation results at ***.\run\OCGModel_base"***
 
