@@ -24,7 +24,7 @@ Note: You can also download the [lattest version of the GNU MathProg Osemosys co
 	- Tell windows where to find GLPK, by adding the path the system path variables. 
 	Be aware to use the version corresponding to your system type, i.e. "C:\glpk-4.**XX**\w32" for 32-Bit system or "C:\glpk-4.**XX**\w64" for 64-Bit system. 
 
-	Test your isntallation by running the following line at the terminal: 
+	Test your installation by running the following line at the terminal: 
 	
 		$ glpsol --version
 		
