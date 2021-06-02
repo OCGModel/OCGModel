@@ -10,7 +10,7 @@ See :ref:`Osemosys Interface Documentation<intdoc>`.
 
    Learn more about OSeMOSYS at `http://www.osemosys.org <http://www.osemosys.org>`_
 
-Set up
+1. Install
 ------
 **Download the OCG Model Repository**
 The OCG Model can be downloaded from our `GitHub repository <https://github.com/OCGModel/OCGModel.git>`_

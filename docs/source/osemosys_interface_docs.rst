@@ -7,7 +7,7 @@ This is the code documentation.
 For information about how to use the interface see :ref:`Osemosys Implementation<osemosysimp>`.
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
 Core Modules
 ++++++++++++

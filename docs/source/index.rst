@@ -1,20 +1,12 @@
-Welcome to DEModel's documentation!
-===================================
+Welcome to the OCGModel documentation!
+======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
-   model_structure
    database
    osemosys_interface
    osemosys_interface_docs
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
