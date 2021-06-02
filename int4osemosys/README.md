@@ -86,7 +86,7 @@ You can use the same interface to plot the model resuls. For that:
 		fuel: Electricity
 				
 5. The plot will be displayed at your internet browser. For the example above, the following image is expected:
- 	<img src = "..\docs\source\images\example_plot.pdf" width = 500 >
+ 	<img src = "..\docs\source\images\example_plot.png" width = 500 >
 
 Note: You can also find the CSV files with the simulation results at ***.\run\OCGModel_base"***
 
