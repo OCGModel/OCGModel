@@ -71,7 +71,8 @@ You can use the same interface to plot the model resuls. For that:
 2. Select the desired plot from the list
 3. Give the additional information for the type of plot selected. e.g. Fuel, year, ..etc. **The paramerets must be given exactly how declared in the Techmap file!! CASE SENSITIVE!**
 	Example:
-	
+		
+		Select Plot:
 		0 - plot_annual_active_capacities
 		1 - plot_annual_emissions
 		2 - plot_annual_supply
