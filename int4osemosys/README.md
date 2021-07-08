@@ -108,7 +108,7 @@ To run the new model, use the same name given to the technology map.
 You can find a complete description of the model structure,  assumptions and validation results at the [Original Paper](https://www.google.de)
 	
 ### OCGModel and int4osemosys documentation
-You can read our complete documentation [here](https://www.google.de)
+You can read our complete documentation [here](../docs/OCGModel_docs.pdf)
 	
 ### OSeMOSYS documentation
 You can read the OSeMOSYS original documentation [here](https://osemosys.readthedocs.io/en/latest/?badge=latest)
