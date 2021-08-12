@@ -81,6 +81,7 @@ def rescale_re_flh(ts_filename, flh, save=False):
     ret = mapp(a)
     # save rescaled timeseries
     if save:
+        print(sum(ret))
         save_filename = ts_filename.split(".")
         save_filename[0] = save_filename[0] + "_%sFLH" % flh
         save_filename = ".".join(save_filename)
@@ -91,4 +92,5 @@ def rescale_re_flh(ts_filename, flh, save=False):
 
 
 if __name__ == '__main__':
+    #rescale_re_flh(%PATHTOFILE%, flh=%FLH%, save=True)
     pass
