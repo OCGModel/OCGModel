@@ -12,7 +12,7 @@ The interface can be found at the folder [int4osemosys](/int4osemosys). Where th
 
 (iii) The [OCGModel and int4osemosys documentation](/docs/OCGModel_docs.pdf) at the docs folder.
 
-You can find a complete description of the model structure,  assumptions and validation results at the [Original Paper](https://www.google.de)
+You can find a complete description of the model structure,  assumptions and validation results at the [Original Paper](https://www.mdpi.com/1996-1073/14/23/8084)
 
 ## Citing OCGModel
 
