@@ -18,7 +18,7 @@ You can find a complete description of the model structure,  assumptions and val
 
 If you use the OCGModel in your research, please cite the original paper:
 
-	todo: addd paper name and citations 
+	Barbosa, J.; Ripp, C.; Steinke, F. Accessible Modeling of the German Energy Transition: An Open, Compact, and Validated Model. Energies 2021, 14, 8084. https://doi.org/10.3390/en14238084
 
 For Bibtex you can use the following:
 
