@@ -881,7 +881,7 @@ class OsemosysInputGenerator:
         return input_gen
 
     @classmethod
-    def build_from_input_file(cls, sim_dir, filename="input.txt"):
+    def build_from_input_file(cls, sim_dir, filename="input.txt", ignore_folder_structure = False, name=None, scenario=None):
         """
         Construct model from an input file. Useful for model post processing.
 
@@ -893,8 +893,13 @@ class OsemosysInputGenerator:
             OsemosysInputGenerator: Model with all parameters and set defined.
         """
         # take last part of simulation dir path
-        sim_name = sim_dir.split(os.sep)[-1]
-        name, scenario = tuple(sim_name.split("_"))
+        if not ignore_folder_structure:
+            sim_name = sim_dir.split(os.sep)[-1]
+            name, scenario = tuple(sim_name.split("_"))
+        elif(name==None or scenario == None):
+            raise MapProcessingException("For overwritting folder stucture name and scenario must be given")
+
+
         model = cls(scenario=scenario, name=name, data_dir=None, sim_dir=sim_dir)
 
         fpath = os.sep.join([sim_dir, filename])
