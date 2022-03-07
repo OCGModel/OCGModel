@@ -39,7 +39,7 @@ class SolutionInterface:
     def __init__(self, sol_dir):
         self.sol_dir = sol_dir
 
-    def compute_all_variables(self, input_generator):
+    def compute_all_variables(self, input_generator, vars_to_compute= None):
         """Compute intermediate variables from main variables.
 
         Compute intermediate variables from main by using the model parameters set in the the input_generator object.
@@ -55,13 +55,15 @@ class SolutionInterface:
             input_generator(OsemosysInputGenerator): OSEMOSYS Model with all parameters values
 
         """
-        vars_to_compute = ["AnnualEmissions",
+        if vars_to_compute is None:
+            vars_to_compute = ["AnnualEmissions",
                            "TotalTechnologyAnnualActivity",
                            "UseByTechnology", "UseByTechnologyAnnual",
                            "ProductionByTechnologyAnnual", "ProductionByTechnology",
                            "Demand",
                            "RateOfUseByTechnology", "RateOfProductionByTechnology", "RateOfDemand",
                            "TotalCapacityAnnual"]
+
 
         for var in vars_to_compute:
             var_filename = os.sep.join([self.sol_dir, var + ".csv"])
@@ -70,8 +72,8 @@ class SolutionInterface:
 
         print( "All variables computed")
 
-    def get_var_values(self, var, select=None, return_zeros=False, compute_missing_vars=False,
-                       input_generator: OsemosysInputGenerator = None) -> pd.DataFrame:
+
+    def get_var_values(self, var, select=None, return_zeros=False, compute_missing_vars = False, input_generator=None) -> pd.DataFrame:
 
         """Get the value of a variable.
 
@@ -386,11 +388,4 @@ class CPLEXSolutionProcessor:
         return list(list_key)
 
 
-if __name__ == '__main__':
-    sim_dir = r"..\runs\DE-Model_test"
-    sol_dir = r"..\runs\DE-Model_test\cplex_results"
-    ip = OsemosysInputGenerator.build_from_input_file(sim_dir=sim_dir)
-    sol_int = SolutionInterface(sol_dir)
-    sol_int.compute_variable("TotalTechnologyAnnualActivity", ip)
-    # sol_int.compute_variable("ProductionByTechnology", ip)
-    print("oi")
+
